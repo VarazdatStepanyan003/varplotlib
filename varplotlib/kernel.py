@@ -15,6 +15,8 @@ def plot_no_show(X, Y, label, col, lineWidth, xLabel, yLabel, yLimMin, yLimMax, 
 
     rest(fontsize, legendsize, xLabel, yLabel, yRot, axWidth, yLimMin, yLimMax)
 
+    return figure
+
 
 def plots_no_show(X, Y, label, col, lineWidth, lineStyle, xLabel, yLabel, yLimMin, yLimMax, figSize=(8, 6), fontsize=18, legendsize=15, yRot=0, axWidth=2):
     figure(figsize=figSize)
@@ -22,6 +24,8 @@ def plots_no_show(X, Y, label, col, lineWidth, lineStyle, xLabel, yLabel, yLimMi
         mplot(X[i], Y[i], label=label[i], color=col[i], linewidth=lineWidth[i], linestyle=lineStyle[i])
 
     rest(fontsize, legendsize, xLabel, yLabel, yRot, axWidth, yLimMin, yLimMax)
+
+    return figure
 
 
 def plots(X, Y, label, col, lineWidth, lineStyle, xLabel, yLabel, yLimMin, yLimMax, figSize=(8, 6), fontsize=18, legendsize=15, yRot=0, axWidth=2):
