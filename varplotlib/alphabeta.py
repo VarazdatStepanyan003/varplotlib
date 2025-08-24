@@ -34,5 +34,7 @@ GRE = {
     "Psi": "Ψ",
     "psi": "ψ",
     "Omega": "Ω",
-    "omega": "ω"
+    "omega": "ω",
+    "angstrom": "Å",
+    "hbar": "ℏ",
 }

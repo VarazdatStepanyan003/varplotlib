@@ -1,2 +1,2 @@
-from varplotlib.kernel import plot, plots, plot_no_show, plots_no_show, show
+from varplotlib.kernel import plot, plots, show, savefig
 from varplotlib.alphabeta import GRE
